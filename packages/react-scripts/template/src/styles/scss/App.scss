@@ -1,0 +1,9 @@
+$font-stack: Helvetica;
+$color-stack: #a0c4ff, #f4f4f4;
+$font-size-stack: 32px, 20px, 12px;
+$responsive-sizes: 1080px, 720px, 480px;
+
+.Home {
+    font-family: $font-stack;
+    font-size: nth($font-size-stack, 1);
+}
